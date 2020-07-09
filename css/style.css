@@ -124,3 +124,14 @@ ABOUT SECTION
     color: #fff;
     text-decoration: none;
 }
+
+.about-button{
+    padding-left: 20px;
+}
+
+.btn-custom{
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
