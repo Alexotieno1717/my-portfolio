@@ -87,3 +87,40 @@ BANNER
 #banner span{
     color: orange;
 }
+
+/* =====================================
+ABOUT SECTION
+=========================================================*/
+#about{
+    width: 90%;
+    margin: 4em auto;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img img{
+    width: 300px;
+}
+
+.about-text h2{
+    color: orange;
+    padding-left: 20px;
+}
+.about-text p{
+    color: #fff;
+    padding-left: 20px;
+}
+
+.about_short_contact_wrap ul li {
+    list-style: none;
+    line-height: 40px;
+    color: #fff;
+}
+
+.about-link{
+    color: #fff;
+    text-decoration: none;
+}
