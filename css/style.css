@@ -224,6 +224,30 @@ PROJECTS SECTION
     border-radius: 8px;
 }
 
+/* =====================================
+CONTACT SECTION
+=========================================================*/
+#contact{
+    text-align: center;
+}
+#contact h2{
+    color: orange;
+}
+
+#contact p{
+    color: #fff;
+}
+
+/* =====================================
+FOOTER SECTION
+=========================================================*/
+footer{
+    background-color: #041230;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
 
 /* =====================================
 MEADIA QUERY SECTION
