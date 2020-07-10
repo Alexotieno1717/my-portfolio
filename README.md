@@ -14,3 +14,6 @@
 #### Technologies Used
 * HTML 5
 * CSS 3
+
+#### License
+* MIT © Alex Otieno
