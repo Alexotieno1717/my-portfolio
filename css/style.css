@@ -189,7 +189,14 @@ ABOUT SECTION
 /* =====================================
 PROJECTS SECTION
 =========================================================*/
-
+.project-title h2{
+    color: orange;
+    text-align: center;
+}
+.project-title p{
+    color: #fff;
+    text-align: center;
+}
 
 
 /* =====================================
