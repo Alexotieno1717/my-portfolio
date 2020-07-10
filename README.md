@@ -10,6 +10,7 @@
 * Install it for run
 
 #### Live Demo
+* https://alexotieno1717.github.io/my-portfolio/
 
 #### Technologies Used
 * HTML 5
