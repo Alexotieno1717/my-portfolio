@@ -6,11 +6,11 @@
 #### Description
 * This website is create to show users my portfolio and work
 
-## Setup Requirements
+#### Setup Requirements
 * Install it for run
 
-## Live Demo
+#### Live Demo
 
-## Technologies Used
+#### Technologies Used
 * HTML 5
 * CSS 3
