@@ -4,12 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Portfolio</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light menu sticky-top">
+        <a class="navbar-brand text-light" href="#">
+            <!-- Logo -->
+            Alex <span class="logo-title">Otieno</span>
+        </a>
+        <button class="navbar-toggler icon-color" type="button" data-toggle="collapse" data-target="#targeted" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse custom-nav" id="targeted">
+            <ul class="navbar-nav ml-auto navbar-nav-custom">
+                <li class="nav-item active pr-4 nav-item-custom">
+                    <a class="nav-link nav-link-custom" href="#">Home</a>
+                </li>
+                <li class="nav-item pr-4 nav-item-custom">
+                    <a class="nav-link nav-link-custom" href="#about">About</a>
+                </li>
+                <li class="nav-item pr-4 nav-item-custom">
+                    <a class="nav-link nav-link-custom" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item pr-4 nav-item-custom">
+                    <a class="nav-link nav-link-custom" href="#project">Project</a>
+                </li>
+                <li class="nav-item pr-4 nav-item-custom">
+                    <a class="nav-link nav-link-custom" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- End of navbar -->
+    <!-- <header>
         <nav>
             <div class="logo">
                 Alex <span class="logo-title">Otieno</span>
@@ -22,13 +57,13 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <!-- End of Navigation -->
 
-    <section id="banner">
+    <!-- <section id="banner">
         <h2>Alex <span>Otieno</span></h2>
         <p>UI | UX Designer and Web Developer</p>
-    </section>
+    </section> -->
     <!-- End Section Banner -->
 
     <section id="about">
@@ -166,5 +201,10 @@
     <footer>
         Copyright &copy; 2020 |  Alex Otieno
     </footer>
+
+    <!-- JavaScript && jQuerry Code -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

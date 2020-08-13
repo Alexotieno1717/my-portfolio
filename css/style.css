@@ -1,6 +1,10 @@
 /* =====================================
 GENERAL
 =========================================================*/
+*{
+    scroll-behavior: smooth;
+}
+
 html, body{
     margin: 0;
     padding: 0;
@@ -9,6 +13,7 @@ html, body{
 
 body{
     font-family: 'Acme', sans-serif;
+    font-size: 14px;
     background: #111318;
     overflow-x: hidden;
 }
@@ -16,7 +21,28 @@ body{
 /* =====================================
 NAVIGATION
 =========================================================*/
-header{
+.navbar-custom{
+    background-color: #041230;
+}
+
+.logo-title{
+    color:orange;
+    font-style: italic;
+} 
+
+.icon-color{
+    background: orange;
+}
+
+.nav-link-custom{
+    color: #fff !important;
+    transition: 1s;
+}
+
+.nav-link-custom:hover{
+    color: orange !important;
+}
+/* header{
     background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url(../images/lap-1.jpg);
     width: 100%;
     height: 100vh;
@@ -64,7 +90,7 @@ nav ul li a:hover{
     color:orange;
     font-style: italic;
     font-family: quicksand;
-}
+} */
 
 /* =====================================
 BANNER
