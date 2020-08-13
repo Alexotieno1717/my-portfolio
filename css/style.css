@@ -8,7 +8,7 @@ html, body{
 }
 
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Acme', sans-serif;
     background: #111318;
     overflow-x: hidden;
 }
