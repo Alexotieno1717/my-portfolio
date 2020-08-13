@@ -98,6 +98,18 @@ SKILLS SECTION
     background-attachment: fixed;
 }
 
+.skills-heading{
+    color: orange;
+}
+/* #skills{
+    background: url(../images/header_bg.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
 .skills-content{
     display: flex;
     justify-content: space-around;
@@ -134,7 +146,7 @@ SKILLS SECTION
 .fa-search,
 .fa-code{
     padding-left: 30px;
-}
+} */
 
 /* =====================================
 PROJECTS SECTION
