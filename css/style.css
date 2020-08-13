@@ -4,7 +4,6 @@ GENERAL
 *{
     margin: 0;
     padding: 0;
-    width: 100%;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -77,50 +76,15 @@ BANNER
 /* =====================================
 ABOUT SECTION
 =========================================================*/
-#about{
-    width: 90%;
-    margin: 4em auto;
-}
-
-.about-content{
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-img img{
-    width: 300px;
-}
-
-.about-text h2{
+.about-heading{
     color: orange;
-    padding-left: 20px;
+    padding-top: 20px;
 }
+
 .about-text p{
-    color: #fff;
-    padding-left: 20px;
+    line-height: 30px;
 }
 
-.about_short_contact_wrap ul li {
-    list-style: none;
-    line-height: 40px;
-    color: #fff;
-}
-
-.about-link{
-    color: #fff;
-    text-decoration: none;
-}
-
-.about-button{
-    padding-left: 20px;
-}
-
-.btn-custom{
-    padding: 10px;
-    background-color: orange;
-    border: none;
-    border-radius: 5px;
-}
 
 /* =====================================
 SKILLS SECTION
