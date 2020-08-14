@@ -101,52 +101,6 @@ SKILLS SECTION
 .skills-heading{
     color: orange;
 }
-/* #skills{
-    background: url(../images/header_bg.jpg);
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-}
-
-.skills-content{
-    display: flex;
-    justify-content: space-around;
-}
-
-.skills-icons,
-.hobbies-icons{
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
-}
-
-.hobbies-header h2{
-    color: orange;
-}
-
-.hobbies-header p{
-    color: #fff;
-}
-
-.hobbies-icons p{
-    padding-left: 10px;
-}
-
-.skills-title h2{
-    color: orange;
-}
-
-.skills-title p{
-    color: #fff;
-}
-
-.fa-book,
-.fa-search,
-.fa-code{
-    padding-left: 30px;
-} */
 
 /* =====================================
 PROJECTS SECTION
