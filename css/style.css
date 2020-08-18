@@ -1,10 +1,16 @@
 /* =====================================
 GENERAL
 =========================================================*/
-html, body{
+*{
     margin: 0;
     padding: 0;
-    width: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'Acme', sans-serif;
 }
 
 body{
@@ -16,71 +22,47 @@ body{
 /* =====================================
 NAVIGATION
 =========================================================*/
-header{
-    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url(../images/lap-1.jpg);
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-}
-
-nav{
+.navbar-custom{
     background-color: #041230;
-    width: 100%;
-    position: relative;
-}
-
-nav ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: right;
-    overflow: hidden;
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 10px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-
-nav ul li a:hover{
-    color: orange;
-}
-
-.logo{
-    float: left;
-    margin: 6px 36px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 24px;
 }
 
 .logo-title{
     color:orange;
     font-style: italic;
-    font-family: quicksand;
+} 
+
+.icon-color{
+    background: orange;
+}
+
+.nav-link-custom{
+    color: #fff !important;
+    transition: 1s;
+}
+
+.nav-link-custom:hover{
+    color: orange !important;
 }
 
 /* =====================================
 BANNER
 =========================================================*/
 #banner{
-    position: absolute;
-    top: 30%;
-    left: 35%;
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url(../images/lap-1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
 }
 
 #banner h2{
-    font-size: 56px;
+    padding-top: 20%;
+    text-align: center;
+    font-size: 4em;
     color: white;
 }
 
 #banner p{
+    text-align: center;
     color: white;
     font-size: 20px;
 }
@@ -92,137 +74,62 @@ BANNER
 /* =====================================
 ABOUT SECTION
 =========================================================*/
-#about{
-    width: 90%;
-    margin: 4em auto;
-}
-
-.about-content{
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-img img{
-    width: 300px;
-}
-
-.about-text h2{
+.about-heading{
     color: orange;
-    padding-left: 20px;
+    padding-top: 20px;
 }
+
 .about-text p{
-    color: #fff;
-    padding-left: 20px;
+    line-height: 30px;
 }
 
-.about_short_contact_wrap ul li {
-    list-style: none;
-    line-height: 40px;
-    color: #fff;
-}
-
-.about-link{
-    color: #fff;
-    text-decoration: none;
-}
-
-.about-button{
-    padding-left: 20px;
-}
-
-.btn-custom{
-    padding: 10px;
-    background-color: orange;
-    border: none;
-    border-radius: 5px;
-}
 
 /* =====================================
 SKILLS SECTION
 =========================================================*/
 #skills{
-    background: url(../images/header_bg.jpg);
+    background: white;
     width: 100%;
     height: auto;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
 }
 
-.skills-content{
-    display: flex;
-    justify-content: space-around;
-}
-
-.skills-icons,
-.hobbies-icons{
-    display: flex;
-    justify-content: space-around;
-    color: #fff;
-}
-
-.hobbies-header h2{
+.skills-heading{
     color: orange;
 }
 
-.hobbies-header p{
-    color: #fff;
+.skill-image{
+    width: 40%;
 }
 
-.hobbies-icons p{
-    padding-left: 10px;
-}
-
-.skills-title h2{
-    color: orange;
-}
-
-.skills-title p{
-    color: #fff;
-}
-
-.fa-book,
-.fa-search,
-.fa-code{
-    padding-left: 30px;
+.skill-image-1{
+    width: 30%;
 }
 
 /* =====================================
 PROJECTS SECTION
 =========================================================*/
-.project-title h2{
+.project-title{
     color: orange;
-    text-align: center;
-}
-.project-title p{
-    color: #fff;
-    text-align: center;
 }
 
-.project-content{
-    width: 90%;
-    margin: 4em auto;
-    display: flex;
-    justify-content: space-around;
+#hover-project-img{
+    overflow: hidden;
+    display: block;
 }
 
-.project-content-1{
-    border: 1px solid #fff;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 15px 15px 5px #000;
+.project-img {
+    transition: 1s;
+    backface-visibility: hidden;
 }
 
-.project-content-1 h3{
-    text-align: center;
+#hover-project-img:hover .project-img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.btn-primary{
-    padding: 8px;
-    margin: 20px;
-    background-color: orange;
-    border: none;
-    border-radius: 8px;
+.btn-custom{
+    background: orange;
+    
 }
 
 /* =====================================

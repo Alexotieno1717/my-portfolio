@@ -4,160 +4,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Portfolio</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                Alex <span class="logo-title">Otieno</span>
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- End of Navigation -->
 
-    <section id="banner">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-light menu sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">
+                <!-- Logo -->
+                Alex <span class="logo-title">Otieno</span>
+            </a>
+            <button class="navbar-toggler icon-color" type="button" data-toggle="collapse" data-target="#targeted" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse custom-nav" id="targeted">
+                <ul class="navbar-nav ml-auto navbar-nav-custom">
+                    <li class="nav-item active pr-4 nav-item-custom">
+                        <a class="nav-link nav-link-custom" href="#">Home</a>
+                    </li>
+                    <li class="nav-item pr-4 nav-item-custom">
+                        <a class="nav-link nav-link-custom" href="#about">About</a>
+                    </li>
+                    <li class="nav-item pr-4 nav-item-custom">
+                        <a class="nav-link nav-link-custom" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item pr-4 nav-item-custom">
+                        <a class="nav-link nav-link-custom" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item pr-4 nav-item-custom">
+                        <a class="nav-link nav-link-custom" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <div class="containerfluid" id="banner">
         <h2>Alex <span>Otieno</span></h2>
         <p>UI | UX Designer and Web Developer</p>
-    </section>
+    </div>
     <!-- End Section Banner -->
 
-    <section id="about">
-        <div class="about-content">
-            <div class="about-img">
-                <img src="images/aleko.png" alt="Alex Otieno">
-            </div>
-            <div class="about-text">
-                <h2>About Us</h2>
-                <p>I'm Alex Otieno a web Designer and web Developer. Currently learning at moringa school. I got interest and passion in software developement after my high school. I enjoy every steps of design and collaborating as a team.</p>
-                <div class="about_short_contact_wrap">
-                    <ul>
-                        <li>
-                            <span class="nairobi"><label>City:</label> Nairobi</span>
-                        </li>
-                        <li>
-                            <span class="nairobi"><label>Interests:</label> Programming</span>
-                        </li>
-                        <li>
-                            <span class="nairobi"><label>Study:</label> Moringa School</span>
-                        </li>
-                        <li>
-                            <span><label>Mail:</label> <a class="about-link" href="mailto:alexotieno900@gmail.com">alexotieno900&#64;gmail.com</a></span>
-                        </li>
-                        <li>
-                            <span><label>Phone:</label> <a class="about-link" href="#"> ​+​254779663469/ +254717176251 </a></span>
-                        </li>
-                    </ul>
+        <!-- About us -->
+        <div class="container pt-4 pb-2" id="about">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about-img">
+                        <img class="w-100 img-thumbnail" src="images/aleko.png" alt="Alex Otieno">
+                    </div>
                 </div>
-                <div class="about-button">
-                    <a href="#"><button class="btn-custom">Download Cv</button></a>
-                    <a href="#"><button class="btn-custom">Contact Me</button></a>
+                <div class="col-md-8 pl-3">
+                    <div class="about-text text-light">
+                        <h2 class="about-heading">Personal Profile</h2>
+                        <p>Hi! My name is Alex Otieno. I am a Web Developer and Web Designer, and I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        <span class="nairobi"><label>City:</label> Nairobi</span>
+                                    </li>
+                                    <li>
+                                        <span class="nairobi"><label>Study:</label> Moringa School</span>
+                                    </li>
+                                    <li>
+                                        <span><label>Mail:</label> <a class="about-link text-light" href="mailto:alexotieno900@gmail.com">alexotieno900&#64;gmail.com</a></span>
+                                    </li>
+                                    <li>
+                                        <span><label>Phone:</label> <a class="about-link text-light" href="#"> ​+​254779663469/ +254717176251 </a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="skills-heading">Hobbies</h2>
+                                <ul>
+                                    <li>Researching</li>
+                                    <li>Passionate in coding</li>
+                                    <li>Reading</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact button -->
+                        <div class="about-button">
+                            <a href="#"><button class="btn btn-warning">Download Cv</button></a>
+                            <a href="#"><button class="btn btn-warning  ml-3">Contact Me</button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
     <!-- End About Us -->
 
-    <section id="skills">
-        <div class="skills-content">
-            <div class="skills-sub-cont">
-                <div class="skills-title">
-                    <h2>Skills</h2>
-                    <p>Main skills and abilities that i can do</p>
-                </div>
-                <div class="skills-icons">
-                    <div class="skills-html">
-                        <i class="fa fa-html5 fa-2x"></i>
-                        <p>HTML 5 </p>
-                    </div>
-                    <div class="skills-css">
-                        <i class="fa fa-css3 fa-2x"></i>
-                        <p>CSS 3</p>
-                    </div>
-                    <div class="skills-git">
-                        <i class="fa fa-git fa-2x"></i>
-                        <p>Git Version</p>
+    <!-- Skills -->
+    <div class="container-fluid" id="skills">
+        <div class="container pt-3">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="skills-title">
+                        <h2 class="skills-heading">Skills</h2>
+                        <p class="text-dark">Main skills and abilities that i can do</p>
                     </div>
                 </div>
-            </div>
-            <div class="hobbies">
-                <div class="hobbies-header">
-                    <h2>Hobbies</h2>
-                    <p>Thing that i love doing</p>
+                <div class="col-md-4">
+                    <img class="skill-image" src="images/html.png" alt="">
+                    <h4 class="pt-3">HTML5</h4>
                 </div>
-                <div class="hobbies-icons">
-                    <div class="search">
-                        <i class="fa fa-search fa-2x"></i>
-                        <p>Researching</p>
-                    </div>
-                    <div class="book">
-                        <i class="fa fa-book fa-2x"></i>
-                        <p>Reading</p>
-                    </div>
-                    <div class="code">
-                        <i class="fa fa-code fa-2x"></i>
-                        <p>Passionate in coding</p>
-                    </div>
+                <div class="col-md-4">
+                    <img class="skill-image-1" src="images/css.png" alt="">
+                    <h4 class="pt-3">CSS 3</h4>
+                </div>
+                <div class="col-md-4">
+                    <img class="skill-image" src="images/js.png" alt="">
+                    <h4 class="pt-3">JavaScript</h4>
+                </div>
+                <div class="col-md-4">
+                    <img class="skill-image" src="images/jquery.png" alt="">
+                    <h4>jQuery</h4>
+                </div>
+                <div class="col-md-4">
+                    <img class="skill-image" src="images/bootstrap-stack.png" alt="">
+                    <h4 class="pt-4">Bootstrap</h4>
+                </div>
+                <div class="col-md-4">
+                    <img class="skill-image" src="images/git.png" alt="">
+                    <h4>Git</h4>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Skills -->
+    </div>
+    <!--  End Skills -->
 
     <section id="project">
-        <div class="project-title">
-            <h2>My Project</h2>
-            <p>Here are some of my works</p>
-        </div>
-        <div class="project-content">
-            <div class="project-content-1">
-                <h3>Safi Sneakers</h3>
-                <img src="images/project-2.jpg" width="300" alt="Shoe Sneakers">
-                <h4>Languages used:</h4>
-                <ul>
-                    <li>HTML 5</li>
-                    <li>CSS</li>
-                </ul>
-                <a href="https://alexotieno1717.github.io/shoes-shop/" target="_blank"><button class="btn-primary">View Site</button></a>
-                <a href="https://github.com/Alexotieno1717/shoes-shop" target="__blank"><button class="btn-primary">Details</button></a>
-            </div>
-            <div class="project-content-1">
-                <h3>Music & Entertainment</h3>
-                <img src="images/project-3.jpg" width="330" alt="Shoe Sneakers">
-                <h4>Languages used:</h4>
-                <ul>
-                    <li>HTML 5</li>
-                    <li>CSS</li>
-                </ul>
-                <a href="https://alexotieno1717.github.io/music-ent/" target="_blank"><button class="btn-primary">View Site</button></a>
-                <a href="https://github.com/Alexotieno1717/music-ent" target="__blank"><button class="btn-primary">Details</button></a>
-            </div>
-            <div class="project-content-1">
-                <h3>Resort Website</h3>
-                <img src="images/project-4.jpg" width="280" alt="Shoe Sneakers">
-                <h4>Languages used:</h4>
-                <ul>
-                    <li>HTML 5</li>
-                    <li>CSS</li>
-                </ul>
-                <a href="https://alexotieno1717.github.io/resort-website/" target="_blank"><button class="btn-primary">View Site</button></a>
-                <a href="https://github.com/Alexotieno1717/resort-website" target="__blank"><button class="btn-primary">Details</button></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="project-title pt-3">My Project</h2>
+                    <p class="text-white">Here are some of my works</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" id="hover-project-img">
+                        <img class="project-img w-100" src="images/project-2.jpg" alt="Shoe Sneakers">
+                        <div class="card-body">
+                            <h4 class="text-center">Safi Sneakers</h4>
+                            <p class="text-muted">
+                                An Application where user can purchase different kind of Sneakers of all kinds online.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://alexotieno1717.github.io/shoes-shop/" target="_blank"><button class="btn btn-custom">View Project</button></a>
+                            <a href="https://github.com/Alexotieno1717/shoes-shop" target="__blank"><button class="btn btn-custom">View Github Repo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of first project -->
+                <div class="col-md-4">
+                    <div class="card" id="hover-project-img">
+                        <img class="project-img w-100" src="images/project-3.jpg" alt="Music">
+                        <div class="card-body">
+                            <h4 class="text-center">Music & Entertainment</h4>
+                            <p class="text-muted">
+                                An Application where user can search on the upcoming event and location and also user can by ticket online for particular event
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://alexotieno1717.github.io/music-ent/" target="_blank"><button class="btn btn-custom">View Project</button></a>
+                            <a href="https://github.com/Alexotieno1717/music-ent" target="__blank"><button class="btn btn-custom">View Github Repo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Second project -->
+                <div class="col-md-4">
+                    <div class="card" id="hover-project-img">
+                        <img class="project-img w-100" src="images/project-4.jpg" alt="Music">
+                        <div class="card-body">
+                            <h4 class="text-center">Resort Website</h4>
+                            <p class="text-muted">
+                                A Website for resort where user can book a vacation with his family in different places 
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://alexotieno1717.github.io/resort-website/" target="_blank"><button class="btn btn-custom">View Project</button></a>
+                            <a href="https://github.com/Alexotieno1717/resort-website" target="__blank"><button class="btn btn-custom">View Github Repo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of third project -->
+                <div class="col-md-4 pt-4">
+                    <div class="card" id="hover-project-img">
+                        <img class="project-img w-100" src="images/project-5.png" alt="Music">
+                        <div class="card-body">
+                            <h4 class="text-center">Pizza Inn Website</h4>
+                            <p class="text-muted">
+                                Web application for Pizza inn that enable customers to order pizza online and deliver to their homes or allows them to pick at the main office.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://alexotieno1717.github.io/resort-website/" target="_blank"><button class="btn btn-custom">View Project</button></a>
+                            <a href="https://github.com/Alexotieno1717/resort-website" target="__blank"><button class="btn btn-custom">View Github Repo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Fouth project -->
+                <div class="col-md-4 pt-4">
+                    <div class="card" id="hover-project-img">
+                        <img class="project-img w-100" src="images/project-6.png" alt="Music">
+                        <div class="card-body">
+                            <h4 class="text-center">Delani Studio</h4>
+                            <p class="text-muted">
+                                Web application for delani studio that shows informatio about delani and the project they have been doing and also it allows users to send message about delani studio website.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://alexotieno1717.github.io/resort-website/" target="_blank"><button class="btn btn-custom">View Project</button></a>
+                            <a href="https://github.com/Alexotieno1717/resort-website" target="__blank"><button class="btn btn-custom">View Github Repo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Fifth project -->
+                <div class="col-md-4 pt-4">
+                    <div class="card" id="hover-project-img">
+                        <img class="project-img w-100" src="images/project-7.png" alt="Music">
+                        <div class="card-body">
+                            <h4 class="text-center">Akan Names</h4>
+                            <p class="text-muted">
+                                Application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name is displayed 
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://alexotieno1717.github.io/resort-website/" target="_blank"><button class="btn btn-custom">View Project</button></a>
+                            <a href="https://github.com/Alexotieno1717/resort-website" target="__blank"><button class="btn btn-custom">View Github Repo</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of sixth project -->
             </div>
         </div>
     </section>
     <!-- End Project -->
 
     <section id="contact">
-        <h2>Contact</h2>
+        <h2 class="pt-4">Contact</h2>
         <p>Lets work together</p>
         <p>Email: alexotieno900@gmail.com</p>
     </section>
@@ -166,5 +258,10 @@
     <footer>
         Copyright &copy; 2020 |  Alex Otieno
     </footer>
+
+    <!-- JavaScript && jQuerry Code -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
